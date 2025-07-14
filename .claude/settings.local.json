@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run build:*)",
+      "Bash(timeout 5s npm run dev)",
+      "WebFetch(domain:www.denali-health.com)",
+      "Bash(npm run lint)"
+    ],
+    "deny": []
+  }
+}
